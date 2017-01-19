@@ -1,0 +1,10 @@
+D:\Guard\bin\Release\Guard.exe
+D:\Guard\bin\Release\Guard.pdb
+D:\Guard\obj\Release\ResolveAssemblyReference.cache
+D:\Guard\obj\Release\Guard.Guard.resources
+D:\Guard\obj\Release\Guard.Properties.Resources.resources
+D:\Guard\obj\Release\Guard.csproj.GenerateResource.Cache
+D:\Guard\obj\Release\Guard.exe
+D:\Guard\obj\Release\Guard.pdb
+D:\MasterCafe\Client\Guard\obj\Release\Guard.exe
+D:\MasterCafe\Client\Guard\obj\Release\Guard.pdb
