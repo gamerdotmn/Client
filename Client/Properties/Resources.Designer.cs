@@ -73,9 +73,9 @@ namespace Client.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap statusback1 {
+        internal static System.Drawing.Bitmap statusback {
             get {
-                object obj = ResourceManager.GetObject("statusback1", resourceCulture);
+                object obj = ResourceManager.GetObject("statusback", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

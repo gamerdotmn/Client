@@ -54,7 +54,7 @@
             // 
             // panel
             // 
-            this.panel.BackgroundImage = global::Client.Properties.Resources.statusback1;
+            this.panel.BackgroundImage = global::Client.Properties.Resources.statusback;
             this.panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel.Controls.Add(this.button_hide);

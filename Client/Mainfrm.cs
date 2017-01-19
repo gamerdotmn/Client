@@ -21,6 +21,7 @@ using System.IO.Compression;
 using System.Collections;
 using LowLevelHooks.Keyboard;
 using System.Security.Principal;
+using System.Management;
 
 namespace Client
 {
@@ -229,6 +230,20 @@ namespace Client
                 }
                 Thread.Sleep(500);
             }
+        }
+
+        private int wei()
+        {
+            ManagementObjectSearcher searcher =
+                   new ManagementObjectSearcher("root\\CIMV2",
+                   "SELECT * FROM Win32_WinSAT");
+            double weid = 0.0;
+            foreach (ManagementObject queryObj in searcher.Get())
+            {
+                weid = double.Parse(queryObj["WinSPRLevel"].ToString());
+            }
+            weid = weid * 10;
+            return (int)weid;
         }
 
         private void check()

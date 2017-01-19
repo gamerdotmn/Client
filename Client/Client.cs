@@ -18,5 +18,6 @@ namespace Client
         public Guid? ht;
         public clientgroup group=new clientgroup();
         public clientmember member=new clientmember();
+        public int? wei;
     }
 }

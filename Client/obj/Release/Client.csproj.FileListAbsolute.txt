@@ -36,3 +36,15 @@ D:\MC\MasterCafe\Client\Client\obj\Release\Client.Loginfrm.resources
 D:\MC\MasterCafe\Client\Client\obj\Release\Client.Mainfrm.resources
 D:\MC\MasterCafe\Client\Client\obj\Release\Client.Properties.Resources.resources
 D:\MC\MasterCafe\Client\Client\obj\Release\Client.csproj.GenerateResource.Cache
+D:\MC\Client\Client\bin\Release\Client.exe.config
+D:\MC\Client\Client\obj\Release\Client.exe
+D:\MC\Client\Client\obj\Release\Client.pdb
+D:\MC\Client\Client\bin\Release\Client.exe
+D:\MC\Client\Client\bin\Release\Client.pdb
+D:\MC\Client\Client\bin\Release\Newtonsoft.Json.dll
+D:\MC\Client\Client\bin\Release\Newtonsoft.Json.xml
+D:\MC\Client\Client\obj\Release\Client.csprojResolveAssemblyReference.cache
+D:\MC\Client\Client\obj\Release\Client.Loginfrm.resources
+D:\MC\Client\Client\obj\Release\Client.Mainfrm.resources
+D:\MC\Client\Client\obj\Release\Client.Properties.Resources.resources
+D:\MC\Client\Client\obj\Release\Client.csproj.GenerateResource.Cache
