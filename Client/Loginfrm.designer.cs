@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loginfrm));
             this.label_pcname = new System.Windows.Forms.Label();
             this.panel_main = new System.Windows.Forms.Panel();
-            this.labelerr_member = new Client.Labelerr();
-            this.labelerr_timecode = new Client.Labelerr();
             this.button_user = new System.Windows.Forms.Button();
             this.textBox_password = new System.Windows.Forms.TextBox();
             this.textBox_user = new System.Windows.Forms.TextBox();
             this.textBox_timecode = new System.Windows.Forms.TextBox();
             this.button_timecode = new System.Windows.Forms.Button();
+            this.labelerr_member = new Client.Labelerr();
+            this.labelerr_timecode = new Client.Labelerr();
             this.panel_main.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,24 +68,6 @@
             this.panel_main.Name = "panel_main";
             this.panel_main.Size = new System.Drawing.Size(480, 480);
             this.panel_main.TabIndex = 2;
-            // 
-            // labelerr_member
-            // 
-            this.labelerr_member.AutoSize = true;
-            this.labelerr_member.ForeColor = System.Drawing.Color.White;
-            this.labelerr_member.Location = new System.Drawing.Point(40, 427);
-            this.labelerr_member.Name = "labelerr_member";
-            this.labelerr_member.Size = new System.Drawing.Size(0, 13);
-            this.labelerr_member.TabIndex = 7;
-            // 
-            // labelerr_timecode
-            // 
-            this.labelerr_timecode.AutoSize = true;
-            this.labelerr_timecode.ForeColor = System.Drawing.Color.White;
-            this.labelerr_timecode.Location = new System.Drawing.Point(40, 170);
-            this.labelerr_timecode.Name = "labelerr_timecode";
-            this.labelerr_timecode.Size = new System.Drawing.Size(0, 13);
-            this.labelerr_timecode.TabIndex = 6;
             // 
             // button_user
             // 
@@ -138,6 +120,24 @@
             this.button_timecode.Text = "Нэвтрэх";
             this.button_timecode.UseVisualStyleBackColor = true;
             // 
+            // labelerr_member
+            // 
+            this.labelerr_member.AutoSize = true;
+            this.labelerr_member.ForeColor = System.Drawing.Color.White;
+            this.labelerr_member.Location = new System.Drawing.Point(40, 427);
+            this.labelerr_member.Name = "labelerr_member";
+            this.labelerr_member.Size = new System.Drawing.Size(0, 13);
+            this.labelerr_member.TabIndex = 7;
+            // 
+            // labelerr_timecode
+            // 
+            this.labelerr_timecode.AutoSize = true;
+            this.labelerr_timecode.ForeColor = System.Drawing.Color.White;
+            this.labelerr_timecode.Location = new System.Drawing.Point(40, 170);
+            this.labelerr_timecode.Name = "labelerr_timecode";
+            this.labelerr_timecode.Size = new System.Drawing.Size(0, 13);
+            this.labelerr_timecode.TabIndex = 6;
+            // 
             // Loginfrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -145,7 +145,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Client.Properties.Resources.b;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(800, 600);
+            this.ClientSize = new System.Drawing.Size(600, 480);
             this.ControlBox = false;
             this.Controls.Add(this.panel_main);
             this.Controls.Add(this.label_pcname);
@@ -158,6 +158,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TopMost = true;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Loginfrm_FormClosing);
             this.panel_main.ResumeLayout(false);
             this.panel_main.PerformLayout();

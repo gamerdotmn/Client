@@ -36,6 +36,7 @@ namespace Client
         public string title;
         public string tc;
         public Guid? ht;
+        public int? wei;
     }
 
     public class PacketClientServerInitrequest

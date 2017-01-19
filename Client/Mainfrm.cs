@@ -139,6 +139,7 @@ namespace Client
             regserver.Close();
             client.name = SystemInformation.ComputerName;
             client.mac = getmac();
+            client.wei = getwei();
             InitializeComponent();
             Thread thread_check = new Thread(new ThreadStart(startcheck));
             thread_check.IsBackground = true;
@@ -232,7 +233,7 @@ namespace Client
             }
         }
 
-        private int wei()
+        private int getwei()
         {
             ManagementObjectSearcher searcher =
                    new ManagementObjectSearcher("root\\CIMV2",
@@ -1022,6 +1023,7 @@ namespace Client
             packet.start = client.start;
             packet.tc = client.tc.code;
             packet.ht = client.ht;
+            packet.wei = client.wei;
             Send(serverip, Program.port_clienttoserver, Newtonsoft.Json.JsonConvert.SerializeObject(packet));
             connecttimeout++;
             if (connecttimeout > disconnecttime)
