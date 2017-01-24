@@ -158,7 +158,6 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TopMost = true;
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Loginfrm_FormClosing);
             this.panel_main.ResumeLayout(false);
             this.panel_main.PerformLayout();
