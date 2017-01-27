@@ -14,9 +14,22 @@ namespace Client
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        public static string host = "gamer.mn";
         public static int port_servertoclient = 40001;
-        public static int port_clienttoserver = 40002;
-        public static int port_broadcast = 40006;
+        public static int port_servertomonitor = 40002;
+        public static int port_monitortoserver = 40003;
+        public static int port_broadcast = 40004;
+        public static int port_clienttoserver = 40005;
+        public static int port_clienttoserver1 = 40005;
+        public static int port_clienttoserver2 = 40006;
+        public static int port_clienttoserver3 = 40007;
+        public static int port_clienttoserver4 = 40008;
+        public static int port_clienttoserver5 = 4009;
+        public static int port_clienttoserver6 = 40010;
+        public static int port_clienttoserver7 = 40011;
+        public static int port_clienttoserver8 = 40012;
+        public static int port_clienttoserver9 = 40013;
+        public static int port_clienttoserver10 = 40014;
 
         [STAThread]
         static void Main(string[] args)
