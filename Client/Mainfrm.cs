@@ -677,6 +677,20 @@ namespace Client
 
         private void server_init(PacketServerClientInit packet)
         {
+            switch (packet.portid)
+            {
+                case 1: Program.port_clienttoserver = Program.port_clienttoserver1; break;
+                case 2: Program.port_clienttoserver = Program.port_clienttoserver2; break;
+                case 3: Program.port_clienttoserver = Program.port_clienttoserver3; break;
+                case 4: Program.port_clienttoserver = Program.port_clienttoserver4; break;
+                case 5: Program.port_clienttoserver = Program.port_clienttoserver5; break;
+                case 6: Program.port_clienttoserver = Program.port_clienttoserver6; break;
+                case 7: Program.port_clienttoserver = Program.port_clienttoserver7; break;
+                case 8: Program.port_clienttoserver = Program.port_clienttoserver8; break;
+                case 9: Program.port_clienttoserver = Program.port_clienttoserver9; break;
+                case 10: Program.port_clienttoserver = Program.port_clienttoserver10; break;
+                default: break;
+            }
             init = true;
             clientpassword = packet.clientpassword;
             clientuser = packet.clientuser;
